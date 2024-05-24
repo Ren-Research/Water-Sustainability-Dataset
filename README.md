@@ -7,16 +7,27 @@
 
 **Note**
 
-Official Repository for ACM e-Energy 2024 dataset paper 
+Repository for ACM e-Energy 2024 paper `A Dataset for Research on Water Sustainability`
 
+## About the dataset
 
+This dataset contains the water usage effectiveness (WUE) in unit Litter per Kilo-Watt-Hour. WUE represents the amount of water consumed for per unit power consumption. This dataset contains the hourly WUE data for 58 US Cities.
+
+* Duration: 01/01/2019 - 12/31/2023
+
+* Time resolution: 1 hour
 
 
 ## Citation
 ```
-@article{Atiqul2024WaterDataset,
-  title={A Dataset for Research on Water Sustainability},
-  author={Gupta, Pranjol Sen and Hossen, Md Rajib and Li, Pengfei and Ren, Shaolei and Islam, Mohammad A. },
-  journal={arXiv preprint arXiv:xxxxxx},
-  year={2024}
+@inproceedings{Atiqul2024WaterDataset,
+author = {Gupta, Pranjol Sen and Hossen, Md Rajib and Li, Pengfei and Ren, Shaolei and Islam, Mohammad A. },
+title = {A Dataset for Research on Water Sustainability},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3632775.3661962},
+keywords = {Sustainability, Water Consumption, Dataset, Cooling Tower, Electricity Generation},
+series = {e-Energy '24}
 }
+```
